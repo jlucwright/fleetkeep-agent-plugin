@@ -1,0 +1,19 @@
+{
+  "name": "fleetkeep-agent-plugin",
+  "version": "1.0.0",
+  "description": "Prepare a vehicle CSV for Fleetkeep and flag missing or ambiguous import values.",
+  "author": {
+    "name": "Studea Limited",
+    "email": "hello@fleetkeep.co.uk",
+    "url": "https://fleetkeep.co.uk"
+  },
+  "homepage": "https://fleetkeep.co.uk",
+  "repository": "https://github.com/jlucwright/fleetkeep-agent-plugin",
+  "license": "MIT",
+  "keywords": [
+    "fleetkeep",
+    "cursor",
+    "skills"
+  ],
+  "logo": "https://fleetkeep.co.uk/favicon.png"
+}
