@@ -8,6 +8,8 @@ Published by Studea Limited. Product: [fleetkeep](https://fleetkeep.co.uk). Supp
 
 Import this Git repository as an Agent Plugin in Cursor or another compatible client. The package contains the `fleetkeep-import-review` skill. It has no install scripts, hooks, dependencies or bundled credentials. Material used with Cursor remains subject to the model service and account settings; this package does not upload it to Fleetkeep.
 
+Cursor supports the root `plugin.json` Agent Plugins format. Use [Cursor’s plugin installation and management guidance](https://cursor.com/docs/plugins) for your account; an official Marketplace listing requires Cursor review. The community Cursor Directory listing is separate.
+
 ## Scope
 
 This is a skills-only package. It does not install an MCP connection or sign in to the product. Prepare and review supplied material in the workspace, then use the product’s normal review flow for account changes. No live vehicle lookup, automatic import or paid account access is included.
