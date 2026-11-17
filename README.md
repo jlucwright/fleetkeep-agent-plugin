@@ -8,6 +8,8 @@ Published by Studea Limited. Product: [fleetkeep](https://fleetkeep.co.uk). Supp
 
 [Installation commands, VS Code link and native Copilot configuration](clients/README.md). Browser OAuth and authorised product access are required.
 
+Fleetkeep CLI OAuth sign-in is currently blocked by callback registration. See the [connection status](clients/README.md#connection-status). Installation alone does not establish a working account connection.
+
 ## Gemini CLI
 
 Review vehicles, maintenance and reminders in your Fleetkeep fleet.
