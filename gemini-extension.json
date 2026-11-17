@@ -1,0 +1,24 @@
+{
+  "name": "fleetkeep",
+  "version": "1.0.0",
+  "description": "Review vehicles, maintenance and reminders in your Fleetkeep fleet.",
+  "mcpServers": {
+    "fleetkeep": {
+      "httpUrl": "https://fleetkeep.co.uk/mcp",
+      "includeTools": [
+        "get_fleet_action_brief",
+        "search_vehicles",
+        "get_vehicle_action_detail"
+      ],
+      "oauth": {
+        "enabled": true,
+        "scopes": [
+          "vehicles:read",
+          "maintenance:read",
+          "reminders:read"
+        ]
+      }
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
