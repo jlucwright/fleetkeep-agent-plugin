@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "fleetkeep": {
+      "type": "http",
+      "url": "https://fleetkeep.co.uk/mcp",
+      "tools": [
+        "get_fleet_action_brief",
+        "search_vehicles",
+        "get_vehicle_action_detail"
+      ]
+    }
+  }
+}

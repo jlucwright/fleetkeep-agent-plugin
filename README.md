@@ -4,6 +4,10 @@ Prepare a vehicle CSV for Fleetkeep and flag missing or ambiguous import values.
 
 Published by Studea Limited. Product: [fleetkeep](https://fleetkeep.co.uk). Support: hello@fleetkeep.co.uk.
 
+## Cline, VS Code and GitHub Copilot
+
+[Installation commands, VS Code link and native Copilot configuration](clients/README.md). Browser OAuth and authorised product access are required.
+
 ## Gemini CLI
 
 Review vehicles, maintenance and reminders in your Fleetkeep fleet.
