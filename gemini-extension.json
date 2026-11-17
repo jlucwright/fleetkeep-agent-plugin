@@ -1,6 +1,6 @@
 {
   "name": "fleetkeep",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Review vehicles, maintenance and reminders in your Fleetkeep fleet.",
   "mcpServers": {
     "fleetkeep": {
@@ -11,12 +11,16 @@
         "get_vehicle_action_detail"
       ],
       "oauth": {
-        "enabled": true,
+        "enabled": false,
         "scopes": [
           "vehicles:read",
           "maintenance:read",
-          "reminders:read"
+          "reminders:read",
+          "offline_access"
         ]
+      },
+      "headers": {
+        "x-mcp-require-auth": "true"
       }
     }
   },

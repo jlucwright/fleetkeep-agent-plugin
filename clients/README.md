@@ -1,20 +1,16 @@
 # Connect Fleetkeep from Cline or Copilot
 
-## Connection status
-
-Fleetkeep's current registration endpoint rejects the localhost callbacks used by these clients. Configuration can be installed, but browser sign-in is blocked until a compatible read-only OAuth client is approved and released. Do not paste tokens or use a broader client to work around this.
-
 ## Cline CLI
 
 With Cline CLI installed, run:
 
 ```sh
-cline mcp install fleetkeep --transport http https://fleetkeep.co.uk/mcp
+cline mcp install fleetkeep --transport http https://fleetkeep.co.uk/mcp --header x-mcp-require-auth:true
 ```
 
 Complete the installation wizard and use browser OAuth when the client requests sign-in. Use your own Fleetkeep account with access to the requested records. Review requested permissions before consent. Use the read tools for this review workflow; do not approve changes or sends as part of setup.
 
-Cline CLI 3.0.74 saved this endpoint successfully in an isolated profile using the noninteractive `--yes` option. The live registration check rejects the client callback, so an authenticated account-data read cannot yet complete.
+Cline CLI 3.0.74 completed browser OAuth and a protected read with an existing fictional QA account on 17 November 2026.
 
 ## Copilot native configuration
 
